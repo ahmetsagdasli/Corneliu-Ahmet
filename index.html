@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <title>Technical Documentation Page - FreeCodeCamp</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media screen and (min-width: 800px) {
+      #navbar  {
+        align-self: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      body {
+        text-align: center;
+      }
+    }
+</style>
 </head>
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-
+    <br />
+    <h1>Hello World, we are software developers!</h1>
+    <br/>
     <main id="main-doc">
         <section class="main-section" id="Section_One_Topic">
-            <header>Section One Topic</header>
+            <header id="inner_Text">Section One Topic</header>
             <p>This is the first Paragraph element.</p>
             <p>This is the second Paragraph element.</p>
             <code>This is the first code element.</code>
@@ -64,24 +79,17 @@
                 <li>The fifth element in list</li>
             </ul>
         </section>
-        <nav id="navbar" >
-
-          
-                <ul>
-                    <li ><a class="nav-link" href="#Section_One_Topic">One1</a></li>
-                    <li ><a class="nav-link"  href="#Section_Two_Topic">Two2</a></li>
-                    <li ><a  class="nav-link" href="#Section_Three_Topic">Three3</a></li>
-                    <li ><a  class="nav-link" href="#Section_Four_Topic">Fourth4</a></li>
-                    <li ><a class="nav-link" href="#Section_Five_Topic">Fifth5</a></li>
-
-
-
-            </ul>
-            
-        <header>
-           this is description of the study case.
-        </header>
-        
+        <nav id="navbar">
+          <header>
+            <h1>this is description of the study case.</h1>
+          </header>
+          <ul>
+            <li><a class="nav-link" href="#Section_One_Topic">Section One Topic</a></li>
+            <li><a class="nav-link" href="#Section_Two_Topic">Section Two Topic</a></li>
+            <li><a class="nav-link" href="#Section_Three_Topic">Section Three Topic</a></li>
+            <li><a class="nav-link" href="#Section_Four_Topic">Section Four Topic</a></li>
+            <li><a class="nav-link" href="#Section_Five_Topic">Section Five Topic</a></li>
+          </ul>
         </nav>
     </main>
 
@@ -103,8 +111,7 @@
 
     -->
     <script src="js/index.js"></script>
-    <br />
-    <h1>Hello World, we are software developers!</h1>
+
 </body>
 
 </html>
